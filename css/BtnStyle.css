@@ -1,0 +1,92 @@
+
+.btn-add-user{
+    position: relative;
+    background-color: #59e119;
+    width: 150px;
+    height: 40px;
+
+    margin-top:20px;
+}
+
+.btn-content-box-denied{
+
+    border: transparent;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    right: 20px;
+    margin: 13px;
+    border-radius: 4px;
+    font-family: Poppins;
+    transition: background-color 0.3s easy;
+    font-size: 15px;
+}
+
+.btn-content-box-denied:hover{
+    color: white;
+    background-color: black;
+    transform: translateY(-10%);
+    box-shadow: 0 0 10px red;
+}
+
+.btn-content-box-accept{
+
+    border: transparent;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    right: 20px;
+    margin: 13px;
+    border-radius: 4px;
+    font-family: Poppins;
+    transition: background-color 0.3s easy;
+    font-size: 15px;
+}
+
+.btn-content-box-accept:hover{
+    color: white;
+    background-color: black;
+    transform: translateY(-10%);
+    box-shadow: 0 0 30px #7bff7b;
+}
+
+.btn-edit{
+    background-color: mediumpurple;
+}
+
+.btn-db:hover{
+
+    color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0,1);
+    transform: skew(-5deg);
+}
+
+.btn-delete {
+    background-color: red;
+}
+
+.btn-db{
+    display: inline-block;
+    flex-direction: row;
+    margin: 3px;
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+    position: relative;
+    border: transparent;
+    font-family: Poppins;
+    color: white;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.btn-add{
+    width: 200px;
+    height: 50px;
+    background-color: #59e119;
+    font-size: 17px;
+}
+
+.btn-add:hover{
+    transform: none;
+}
